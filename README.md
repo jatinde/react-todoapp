@@ -1,7 +1,7 @@
 # Instructions to Run
-### Install lite-server
+### Install live-server
 ```sh
-npm install -g lite-server
+npm install -g live-server
 ```
 
 ### Install babel
@@ -23,5 +23,5 @@ babel public/src/app.js --out-file=public/scripts/app.js --presets=react,env
 ### Run Application
 Run following command to run application.
 ```
-lite-server public
+live-server public
 ```
